@@ -1,0 +1,71 @@
+@import 'leaflet/dist/leaflet.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --background:#faf6f0; --surface:#fffdf9; --surface-container-low:#f3ede3; --surface-container:#eee7da; --surface-container-high:#e7dfd1;
+  --primary:#4a7c59; --primary-hover:#365e43; --primary-active:#2f533a; --primary-soft:#ddeade;
+  --tertiary:#705c30; --tertiary-soft:#f2e9d5; --clay:#a66b4f; --sage:#8ba888;
+  --text-primary:#2e322f; --text-secondary:#6e746c; --text-muted:#8d918a; --text-on-primary:#fffdf9;
+  --border:rgba(112,92,48,.18); --border-soft:rgba(112,92,48,.10); --border-strong:rgba(112,92,48,.18);
+  --shadow-soft:0 4px 20px rgba(46,50,48,.06); --shadow-hover:0 4px 20px rgba(46,50,48,.06);
+  --safe:#4f7e5c; --safe-bg:#e4eee1; --warning:#9a7a3f; --warning-bg:#f4ecd9; --critical:#a75545; --critical-bg:#f5e2dd;
+  --offline:#77796f; --offline-bg:#eceae4; --maintenance:#79658a; --maintenance-bg:#eee8f2; --purification:#5d7f75; --purification-bg:#e1ece7;
+}
+body{font-family:'Nunito Sans',sans-serif;background:var(--background);color:var(--text-primary);line-height:1.6}
+h1,h2,h3,h4{font-family:'Literata',Georgia,serif;letter-spacing:-.02em;line-height:1.3}
+button,input,select,textarea{font-family:inherit} button{min-height:40px}
+:focus-visible{outline:3px solid rgba(74,124,89,.2);outline-offset:2px}
+.bg-white{background-color:var(--surface)!important}.bg-slate-50{background-color:var(--surface-container-low)!important}.bg-slate-100{background-color:var(--surface-container)!important}.bg-slate-200{background-color:var(--surface-container-high)!important}
+.text-slate-900,.text-slate-800{color:var(--text-primary)!important}.text-slate-700,.text-slate-600{color:var(--text-secondary)!important}.text-slate-500,.text-slate-400{color:var(--text-muted)!important}
+.border-slate-200,.border-slate-100{border-color:var(--border-soft)!important}.shadow-sm,.shadow-md{box-shadow:var(--shadow-soft)!important}
+.hover\:bg-slate-200:hover{background-color:var(--surface-container-high)!important}.hover\:bg-slate-100:hover{background-color:var(--surface-container-low)!important}
+.bg-blue-600,.bg-blue-500{background-color:var(--primary)!important}.bg-blue-50,.bg-blue-100{background-color:var(--primary-soft)!important}.text-blue-700,.text-blue-600,.text-blue-500{color:var(--primary)!important}
+.border-blue-400,.border-blue-200,.border-blue-100{border-color:var(--border)!important}.hover\:bg-blue-700:hover,.hover\:bg-blue-600:hover{background-color:var(--primary-hover)!important}.focus\:border-blue-400:focus{border-color:var(--primary)!important}
+.bg-green-50{background-color:var(--safe-bg)!important}.bg-green-500{background-color:var(--safe)!important}.text-green-700,.text-green-600,.text-green-500{color:var(--safe)!important}
+.bg-yellow-50{background-color:var(--warning-bg)!important}.bg-yellow-500{background-color:var(--warning)!important}.text-yellow-700,.text-yellow-600{color:var(--warning)!important}
+.bg-orange-50{background-color:var(--purification-bg)!important}.bg-orange-500{background-color:var(--purification)!important}.text-orange-700,.text-orange-600,.text-orange-500{color:var(--purification)!important}
+.bg-red-50{background-color:var(--critical-bg)!important}.bg-red-500{background-color:var(--critical)!important}.text-red-700,.text-red-600,.text-red-500{color:var(--critical)!important}
+.bg-purple-50{background-color:var(--maintenance-bg)!important}.bg-purple-500{background-color:var(--maintenance)!important}.text-purple-700,.text-purple-600{color:var(--maintenance)!important}
+.rounded-lg{border-radius:12px}.rounded-xl{border-radius:12px}.rounded-\[16px\]{border-radius:12px} main{background:var(--background)}
+input,select,textarea{color:var(--text-primary);background-color:var(--surface);border-color:var(--border)!important;border-radius:10px}
+input::placeholder,textarea::placeholder{color:var(--text-muted)}input:focus,select:focus,textarea:focus{border-color:var(--primary)!important;box-shadow:0 0 0 3px rgba(74,124,89,.16)}
+table thead{background:var(--surface-container-low);color:var(--text-primary)}table tbody tr{border-color:var(--border-soft)}table tbody tr:hover{background:#f7f2e9}
+.leaflet-container{font-family:inherit;background:#e7dfd1}.leaflet-popup-content-wrapper{border-radius:14px;background:var(--surface);border:1px solid var(--border-soft);box-shadow:var(--shadow-soft)}
+.leaflet-popup-content{margin:12px 14px;font-size:13px;color:var(--text-primary)}.leaflet-control-zoom a,.leaflet-control-attribution{color:var(--text-secondary)!important;background:var(--surface)!important;border-color:var(--border-soft)!important}
+.leaflet-control-zoom a:hover{color:var(--primary)!important}.leaflet-popup-tip{background:var(--surface)}
+::-webkit-scrollbar{width:6px;height:6px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:#c6c1b2;border-radius:6px}::-webkit-scrollbar-thumb:hover{background:#aaa392}
+/* Keep legacy utility markup visually aligned with the Terra tokens. */
+[class*="shadow-["] { box-shadow: var(--shadow-soft) !important; }
+[class*="border-[#"] { border-color: var(--border-soft) !important; }
+[class*="bg-[#FFFDF9]"] { background-color: var(--surface) !important; }
+
+/* Layout refinements: reuse the existing Terra surfaces, borders and typography. */
+.dashboard-page, .dashboard-page > *, .dashboard-page section, .dashboard-page article { min-width: 0; }
+.dashboard-page-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; min-width: 0; padding: 2px 0 4px; }
+.dashboard-filter-panel { min-width: 0; padding: 16px; border: 1px solid var(--border-soft); border-radius: 12px; background: var(--surface); box-shadow: var(--shadow-soft); }
+.dashboard-filter-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) auto; align-items: end; gap: 12px; }
+.dashboard-metric-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); align-items: stretch; gap: 16px; }
+.dashboard-metric-grid > * { min-width: 0; }
+.metric-card { min-height: 340px; }
+.metric-card-overall { grid-column: span 1; }
+.overall-card-content { display: flex; flex: 1; min-width: 0; flex-direction: column; justify-content: center; gap: 12px; padding-top: 14px; }
+.overall-card-score, .overall-card-details { min-width: 0; overflow-wrap: anywhere; }
+.metric-safe-range { min-height: 20px; }
+.water-quality-gauge { width: min(100%, 220px); height: 84px; }
+.water-map { width: 100%; height: clamp(340px, 48vh, 520px); min-width: 0; overflow: hidden; border-radius: 10px; }
+.water-map .leaflet-container { width: 100%; height: 100%; }
+@media (max-width: 1280px) {
+  .dashboard-metric-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 1050px) {
+  .dashboard-filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dashboard-metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .dashboard-page-heading { align-items: flex-start; }
+  .dashboard-filter-panel { padding: 12px; }
+  .dashboard-filter-grid, .dashboard-metric-grid { grid-template-columns: minmax(0, 1fr); }
+  .metric-card { min-height: 320px; }
+  .water-map { height: 360px; }
+}

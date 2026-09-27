@@ -1,0 +1,81 @@
+﻿sample_id,sample_date,year,city,state,testing_source,latitude,longitude,pH,tds_mg_l,turbidity_ntu,temperature_c,hardness_mg_l_as_caco3,residual_free_chlorine_mg_l,ammonia_mg_l,fluoride_mg_l,nitrate_mg_l,e_coli_cfu_100ml,fecal_coliform_cfu_100ml,demo_water_status
+WQ-0001,2024-08-01,2024,Raipur,Chhattisgarh,Over Head Tank,21.25156,81.6154,7.37,620.0,2.7,30.8,254.0,0.2,0.07,0.77,33.6,4,6,Monitor
+WQ-0002,2024-08-03,2024,Bhilai,Chhattisgarh,Tap Water,21.20752,81.346,7.33,848.0,2.49,29.5,231.0,0.28,0.22,0.74,20.0,2,5,Monitor
+WQ-0003,2024-08-05,2024,Bilaspur,Chhattisgarh,Treated Used Water,22.08326,82.15175,7.42,629.0,3.3,31.4,158.0,0.27,0.06,0.75,25.7,0,1,Good
+WQ-0004,2024-08-07,2024,Korba,Chhattisgarh,Water Treatment Plant,22.35561,82.74139,6.95,646.0,4.02,27.0,263.0,0.34,0.28,0.77,37.1,2,3,Good
+WQ-0005,2024-08-09,2024,Durg,Chhattisgarh,WaterBody,21.19594,81.29519,7.25,929.0,2.16,26.0,180.0,0.27,0.16,0.23,46.8,1,1,Monitor
+WQ-0006,2024-08-11,2024,Ambikapur,Chhattisgarh,Over Head Tank,23.14794,83.17987,7.47,418.0,3.17,26.8,181.0,0.33,0.24,0.67,19.3,0,0,Good
+WQ-0007,2024-08-13,2024,Rajnandgaon,Chhattisgarh,Tap Water,21.08351,81.02209,7.29,646.0,1.85,29.5,181.0,0.35,0.08,0.69,53.1,1,3,Monitor
+WQ-0008,2024-08-15,2024,Jagdalpur,Chhattisgarh,Treated Used Water,19.08025,82.00911,7.28,324.0,2.01,27.7,170.0,0.39,0.09,0.91,20.4,6,8,Monitor
+WQ-0009,2024-08-17,2024,Raipur,Chhattisgarh,Water Treatment Plant,21.26252,81.62355,7.37,804.0,3.53,28.4,253.0,0.46,0.14,0.59,38.6,5,11,Monitor
+WQ-0010,2024-08-19,2024,Bhilai,Chhattisgarh,WaterBody,21.20516,81.36085,7.09,569.0,3.97,29.1,302.0,0.3,0.16,0.8,31.6,9,12,Monitor
+WQ-0011,2024-08-21,2024,Bilaspur,Chhattisgarh,Over Head Tank,22.08119,82.13385,7.33,637.0,4.17,25.2,132.0,0.25,0.13,0.6,13.4,4,8,Monitor
+WQ-0012,2024-08-23,2024,Korba,Chhattisgarh,Tap Water,22.34813,82.74184,7.33,643.0,3.67,30.7,308.0,0.3,0.31,0.92,32.9,1,4,Good
+WQ-0013,2024-08-25,2024,Durg,Chhattisgarh,Treated Used Water,21.19547,81.27633,7.17,790.0,2.98,25.1,260.0,0.24,0.17,0.92,21.3,4,7,Monitor
+WQ-0014,2024-08-27,2024,Ambikapur,Chhattisgarh,Water Treatment Plant,23.14237,83.1863,7.73,699.0,1.48,31.2,151.0,0.3,0.06,0.72,29.0,0,3,Good
+WQ-0015,2024-08-29,2024,Rajnandgaon,Chhattisgarh,WaterBody,21.1098,81.03209,7.38,555.0,1.83,31.8,218.0,0.28,0.16,0.4,28.6,2,5,Good
+WQ-0016,2024-08-31,2024,Jagdalpur,Chhattisgarh,Over Head Tank,19.07183,81.99476,7.65,359.0,5.55,31.6,216.0,0.48,0.06,0.62,19.4,0,2,Monitor
+WQ-0017,2024-09-02,2024,Raipur,Chhattisgarh,Tap Water,21.2453,81.64366,7.02,870.0,2.65,28.4,300.0,0.08,0.25,0.84,28.9,2,3,Monitor
+WQ-0018,2024-09-04,2024,Bhilai,Chhattisgarh,Treated Used Water,21.19665,81.35616,7.05,621.0,3.1,29.5,224.0,0.1,0.23,0.89,48.6,4,7,Monitor
+WQ-0019,2024-09-06,2024,Bilaspur,Chhattisgarh,Water Treatment Plant,22.08619,82.13306,7.36,658.0,3.12,29.6,186.0,0.21,0.09,0.39,22.1,4,5,Good
+WQ-0020,2024-09-08,2024,Korba,Chhattisgarh,WaterBody,22.35246,82.7631,6.99,835.0,3.16,30.9,291.0,0.37,0.29,1.26,33.0,5,8,Monitor
+WQ-0021,2024-09-10,2024,Durg,Chhattisgarh,Over Head Tank,21.18438,81.2898,7.57,499.0,2.54,31.6,248.0,0.24,0.12,0.88,29.2,7,9,Monitor
+WQ-0022,2024-09-12,2024,Ambikapur,Chhattisgarh,Tap Water,23.13516,83.19326,7.54,477.0,2.72,29.2,187.0,0.26,0.18,0.54,18.9,0,1,Good
+WQ-0023,2024-09-14,2024,Rajnandgaon,Chhattisgarh,Treated Used Water,21.08239,81.02106,7.34,518.0,1.86,24.5,211.0,0.3,0.04,0.55,39.0,0,1,Good
+WQ-0024,2024-09-16,2024,Jagdalpur,Chhattisgarh,Water Treatment Plant,19.08677,81.9993,7.79,303.0,0.66,29.5,138.0,0.31,0.12,0.42,39.3,3,1,Good
+WQ-0025,2024-09-18,2024,Raipur,Chhattisgarh,WaterBody,21.26284,81.61534,7.4,694.0,3.15,28.0,130.0,0.24,0.16,0.94,22.4,7,8,Monitor
+WQ-0026,2024-09-20,2024,Bhilai,Chhattisgarh,Over Head Tank,21.18547,81.3604,7.24,587.0,4.57,31.8,205.0,0.31,0.19,0.66,27.9,6,5,Monitor
+WQ-0027,2024-09-22,2024,Bilaspur,Chhattisgarh,Tap Water,22.07669,82.15533,7.2,624.0,2.78,24.7,177.0,0.31,0.18,0.89,11.3,1,6,Monitor
+WQ-0028,2024-09-24,2024,Korba,Chhattisgarh,Treated Used Water,22.36269,82.75044,6.78,669.0,5.19,26.0,333.0,0.35,0.25,0.81,38.6,3,3,Monitor
+WQ-0029,2024-09-26,2024,Durg,Chhattisgarh,Water Treatment Plant,21.1775,81.28983,7.12,760.0,2.86,24.5,300.0,0.38,0.17,0.57,17.2,2,2,Good
+WQ-0030,2024-09-28,2024,Ambikapur,Chhattisgarh,WaterBody,23.14871,83.18642,7.37,587.0,3.23,27.1,114.0,0.25,0.16,0.44,28.0,4,7,Monitor
+WQ-0031,2024-09-30,2024,Rajnandgaon,Chhattisgarh,Over Head Tank,21.08851,81.033,7.5,469.0,2.14,24.5,248.0,0.26,0.18,0.34,20.3,0,2,Good
+WQ-0032,2024-08-01,2024,Jagdalpur,Chhattisgarh,Tap Water,19.06577,81.99373,7.76,351.0,2.48,28.9,179.0,0.23,0.05,0.68,11.2,1,2,Good
+WQ-0033,2024-08-03,2024,Raipur,Chhattisgarh,Treated Used Water,21.23657,81.63713,7.41,771.0,3.01,28.0,208.0,0.24,0.15,0.54,20.4,3,8,Monitor
+WQ-0034,2024-08-05,2024,Bhilai,Chhattisgarh,Water Treatment Plant,21.19883,81.36554,7.26,636.0,2.6,32.6,252.0,0.25,0.23,0.64,47.1,0,3,Monitor
+WQ-0035,2024-08-07,2024,Bilaspur,Chhattisgarh,WaterBody,22.07248,82.13332,6.99,441.0,3.56,30.6,169.0,0.11,0.13,0.21,21.9,2,2,Good
+WQ-0036,2024-08-09,2024,Korba,Chhattisgarh,Over Head Tank,22.35144,82.75592,7.0,581.0,2.15,26.8,245.0,0.35,0.28,0.64,40.2,2,4,Good
+WQ-0037,2024-08-11,2024,Durg,Chhattisgarh,Tap Water,21.19837,81.28131,7.28,620.0,1.96,28.0,260.0,0.31,0.26,0.82,24.2,1,0,Good
+WQ-0038,2024-08-13,2024,Ambikapur,Chhattisgarh,Treated Used Water,23.13358,83.16697,7.62,504.0,2.44,32.6,85.0,0.15,0.15,0.33,21.1,2,5,Good
+WQ-0039,2024-08-15,2024,Rajnandgaon,Chhattisgarh,Water Treatment Plant,21.10138,81.02287,7.16,709.0,2.05,28.5,209.0,0.37,0.18,0.75,27.3,1,3,Good
+WQ-0040,2024-08-17,2024,Jagdalpur,Chhattisgarh,WaterBody,19.06038,82.00918,7.44,479.0,1.85,27.3,184.0,0.29,0.03,0.56,8.2,2,5,Good
+WQ-0041,2024-08-19,2024,Raipur,Chhattisgarh,Over Head Tank,21.25648,81.63152,7.57,640.0,1.88,30.0,158.0,0.29,0.03,0.62,30.7,3,6,Monitor
+WQ-0042,2024-08-21,2024,Bhilai,Chhattisgarh,Tap Water,21.18816,81.35622,7.31,865.0,3.16,29.7,212.0,0.28,0.2,0.84,12.8,3,5,Monitor
+WQ-0043,2024-08-23,2024,Bilaspur,Chhattisgarh,Treated Used Water,22.09422,82.14938,7.52,570.0,2.52,30.4,191.0,0.25,0.11,0.63,11.6,1,2,Good
+WQ-0044,2024-08-25,2024,Korba,Chhattisgarh,Water Treatment Plant,22.36572,82.74816,7.09,830.0,2.67,27.4,292.0,0.38,0.17,1.02,45.8,0,0,Monitor
+WQ-0045,2024-08-27,2024,Durg,Chhattisgarh,WaterBody,21.178,81.29635,7.25,363.0,2.69,29.1,310.0,0.18,0.21,0.61,23.9,6,5,Monitor
+WQ-0046,2024-08-29,2024,Ambikapur,Chhattisgarh,Over Head Tank,23.14154,83.17439,7.46,628.0,1.72,24.7,145.0,0.31,0.07,0.64,38.1,0,5,Good
+WQ-0047,2024-08-31,2024,Rajnandgaon,Chhattisgarh,Tap Water,21.08875,81.03955,7.74,578.0,3.73,28.7,231.0,0.29,0.03,0.45,18.5,2,3,Good
+WQ-0048,2024-09-02,2024,Jagdalpur,Chhattisgarh,Treated Used Water,19.06558,81.99659,7.42,612.0,1.21,28.1,172.0,0.28,0.04,0.51,17.2,2,5,Good
+WQ-0049,2024-09-04,2024,Raipur,Chhattisgarh,Water Treatment Plant,21.24322,81.61998,7.1,596.0,3.05,28.6,251.0,0.24,0.02,0.46,28.2,4,7,Monitor
+WQ-0050,2024-09-06,2024,Bhilai,Chhattisgarh,WaterBody,21.19288,81.34911,7.47,703.0,2.73,29.2,360.0,0.26,0.2,0.78,24.8,5,5,Good
+WQ-0051,2024-09-08,2024,Bilaspur,Chhattisgarh,Over Head Tank,22.07382,82.15572,7.37,634.0,3.56,31.5,189.0,0.25,0.14,0.54,25.1,4,8,Monitor
+WQ-0052,2024-09-10,2024,Korba,Chhattisgarh,Tap Water,22.36313,82.75339,7.43,862.0,2.15,26.4,204.0,0.18,0.25,0.32,38.8,5,7,Monitor
+WQ-0053,2024-09-12,2024,Durg,Chhattisgarh,Treated Used Water,21.18414,81.27684,7.27,381.0,3.06,30.1,259.0,0.31,0.23,0.63,30.4,0,3,Good
+WQ-0054,2024-09-14,2024,Ambikapur,Chhattisgarh,Water Treatment Plant,23.13993,83.19335,7.38,327.0,1.08,32.4,193.0,0.31,0.02,0.34,8.4,0,3,Good
+WQ-0055,2024-09-16,2024,Rajnandgaon,Chhattisgarh,WaterBody,21.09711,81.03361,7.33,521.0,2.89,30.9,227.0,0.21,0.1,0.77,34.5,0,0,Good
+WQ-0056,2024-09-18,2024,Jagdalpur,Chhattisgarh,Over Head Tank,19.07997,82.00109,7.54,486.0,1.58,26.6,179.0,0.47,0.17,0.68,14.3,11,11,Monitor
+WQ-0057,2024-09-20,2024,Raipur,Chhattisgarh,Tap Water,21.2464,81.6347,7.69,688.0,1.52,32.3,234.0,0.33,0.25,0.47,22.2,4,7,Monitor
+WQ-0058,2024-09-22,2024,Bhilai,Chhattisgarh,Treated Used Water,21.19093,81.35134,7.35,610.0,2.84,32.5,205.0,0.32,0.16,0.49,33.5,0,7,Monitor
+WQ-0059,2024-09-24,2024,Bilaspur,Chhattisgarh,Water Treatment Plant,22.09253,82.13904,7.61,587.0,1.7,26.1,196.0,0.18,0.21,0.37,17.4,3,7,Monitor
+WQ-0060,2024-09-26,2024,Korba,Chhattisgarh,WaterBody,22.35834,82.73862,7.17,675.0,4.62,26.5,243.0,0.34,0.32,0.58,32.1,9,11,Monitor
+WQ-0061,2024-09-28,2024,Durg,Chhattisgarh,Over Head Tank,21.19065,81.29628,7.4,543.0,2.68,26.8,177.0,0.41,0.06,0.63,40.3,0,5,Good
+WQ-0062,2024-09-30,2024,Ambikapur,Chhattisgarh,Tap Water,23.13519,83.17056,7.55,430.0,2.63,32.4,128.0,0.11,0.09,0.53,30.8,0,0,Good
+WQ-0063,2024-08-01,2024,Rajnandgaon,Chhattisgarh,Treated Used Water,21.08341,81.04114,7.14,535.0,1.43,28.4,176.0,0.25,0.15,0.5,16.1,2,7,Monitor
+WQ-0064,2024-08-03,2024,Jagdalpur,Chhattisgarh,Water Treatment Plant,19.08603,82.00621,7.41,268.0,1.3,31.5,206.0,0.38,0.08,0.76,25.5,0,0,Good
+WQ-0065,2024-08-05,2024,Raipur,Chhattisgarh,WaterBody,21.26195,81.64017,7.2,619.0,2.64,30.1,176.0,0.34,0.24,0.77,27.8,1,0,Good
+WQ-0066,2024-08-07,2024,Bhilai,Chhattisgarh,Over Head Tank,21.2012,81.34892,7.36,603.0,2.52,31.0,305.0,0.3,0.22,0.87,36.3,11,10,Monitor
+WQ-0067,2024-08-09,2024,Bilaspur,Chhattisgarh,Tap Water,22.08063,82.14288,7.56,695.0,3.28,30.4,173.0,0.3,0.12,0.62,20.6,1,4,Good
+WQ-0068,2024-08-11,2024,Korba,Chhattisgarh,Treated Used Water,22.34478,82.75924,7.23,662.0,5.0,29.8,297.0,0.29,0.39,0.78,40.2,3,7,Monitor
+WQ-0069,2024-08-13,2024,Durg,Chhattisgarh,Water Treatment Plant,21.18694,81.2844,7.52,559.0,3.43,27.4,270.0,0.17,0.16,0.5,32.9,4,5,Good
+WQ-0070,2024-08-15,2024,Ambikapur,Chhattisgarh,WaterBody,23.12197,83.18429,7.47,649.0,0.3,27.0,109.0,0.41,0.09,0.53,34.4,0,0,Good
+WQ-0071,2024-08-17,2024,Rajnandgaon,Chhattisgarh,Over Head Tank,21.10725,81.03765,6.91,565.0,2.14,29.7,273.0,0.2,0.19,0.38,17.6,1,0,Good
+WQ-0072,2024-08-19,2024,Jagdalpur,Chhattisgarh,Tap Water,19.07598,82.02214,7.71,375.0,1.95,29.4,208.0,0.28,0.06,0.47,36.0,2,5,Good
+WQ-0073,2024-08-21,2024,Raipur,Chhattisgarh,Treated Used Water,21.24062,81.6436,7.01,591.0,3.14,31.5,192.0,0.12,0.19,0.61,21.9,7,12,Monitor
+WQ-0074,2024-08-23,2024,Bhilai,Chhattisgarh,Water Treatment Plant,21.19897,81.35344,7.43,548.0,5.43,31.3,225.0,0.17,0.31,0.86,32.5,0,3,Monitor
+WQ-0075,2024-08-25,2024,Bilaspur,Chhattisgarh,WaterBody,22.09198,82.13497,7.54,355.0,3.11,24.7,229.0,0.37,0.08,0.69,24.1,6,9,Monitor
+WQ-0076,2024-08-27,2024,Korba,Chhattisgarh,Over Head Tank,22.37288,82.74767,7.12,764.0,4.12,28.7,241.0,0.43,0.33,0.79,39.9,1,0,Good
+WQ-0077,2024-08-29,2024,Durg,Chhattisgarh,Tap Water,21.20106,81.27288,7.29,593.0,2.55,28.7,239.0,0.09,0.28,0.79,31.7,0,4,Good
+WQ-0078,2024-08-31,2024,Ambikapur,Chhattisgarh,Treated Used Water,23.13841,83.16674,7.36,367.0,3.24,27.9,167.0,0.3,0.13,0.68,17.0,0,0,Good
+WQ-0079,2024-09-02,2024,Rajnandgaon,Chhattisgarh,Water Treatment Plant,21.10912,81.01889,7.33,476.0,3.32,25.1,235.0,0.29,0.08,0.65,41.7,1,4,Good
+WQ-0080,2024-09-04,2024,Jagdalpur,Chhattisgarh,WaterBody,19.06503,81.99457,7.56,420.0,2.77,26.0,187.0,0.27,0.08,0.87,24.6,2,6,Monitor
